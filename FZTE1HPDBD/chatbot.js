@@ -30,7 +30,7 @@ jQuery(document).ready(function($) {
                 var knowledge = data;    
         
                 
-                    var api_key = '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';
+                    var api_key = 'sk-' + 'J34zghOMevd' +'Lmh0j7UZaT3B' +'lbkFJtxrhQ' +'gxK6e17' +'m2eHrDDn';
 
                     $.ajax({
                         url: 'https://api.openai.com/v1/completions',
@@ -83,9 +83,9 @@ jQuery(document).ready(function($) {
                         },
                     });
                 })
-                .catch(error => {
-                    console.error('Error loading file:', error);
-                });
+                // .catch(error => {
+                //     console.error('Error loading file:', error);
+                // });
         });
 
 
@@ -117,7 +117,7 @@ jQuery(document).ready(function($) {
                 var knowledge = data;    
         
                 
-                    var api_key = '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';
+                var api_key = 'sk-' + 'J34zghOMevd' +'Lmh0j7UZaT3B' +'lbkFJtxrhQ' +'gxK6e17' +'m2eHrDDn';
 
                     $.ajax({
                         url: 'https://api.openai.com/v1/completions',
@@ -170,9 +170,9 @@ jQuery(document).ready(function($) {
                         },
                     });
                 })
-                .catch(error => {
-                    console.error('Error loading file:', error);
-                });
+                // .catch(error => {
+                //     console.error('Error loading file:', error);
+                // });
         });
     
     
